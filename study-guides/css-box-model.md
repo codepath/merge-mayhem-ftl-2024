@@ -1,5 +1,20 @@
 # CSS Box Model
 
+In a document, or a website, each element is represented by a regular box. Each of the rectangular boxes has four edges: the margin edge, border edge, padding edge, and content edge. Let's take a look at the CSS Box Model.
+
+
+## Box Model Components
+
+![Image of CSS box model](https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png)
+
+Source: [Wikipedia](https://en.wikipedia.org/wiki/CSS_box_model)
+
+- `width`: This refers to the width of the content area of the element.
+- `height`: This refers to the height of the content area of the element.
+- `padding`: Directly surrounding the content area of the element is the padding. The **padding** can be divided into four different properties: `padding-top`, `padding-right`, `padding-bottom`, and `padding-left`. Most web browsers give elements a default padding size of `0px`.
+- `border`: The **border** is the space between the padding and margin. Developers can modify the `border-color`, `border-style`, and `border-width` of an element. These properties can also be specified to its 4 different edges: `border-top`, `border-right`, `border-bottom`, and `border-left`. Most web browsers give elements a default border size of `0px`.
+- `margin`: The **margin** is the outermost space directly surrounding the border. The margin can be divided into four different properties: `margin-top`, `margin-right`, `margin-bottom`, and `margin-left`. Most web browsers give elements a default margin size of `16px`.
+
 - Property: A property is the type of style on an HTML element. This includes color, positioning, font, border, etc. Check out MDN Docs for a full list of CSS properties.
 - Value: This is the exact style you want to implement on your website. In the example above, we want to use the color `navy` in the `body` of our website.
 - **Note:** Each property has its own set of valid values. For example, The `color` property can take values by name (`blue`, `green`, etc), Hex format (`#FFFFFF`), or RGB colors (`rgb(255,255,255)`).
